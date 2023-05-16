@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/application.cpp
+application.h
+/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/application.h
+stdio.h
+-
+
+/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/application.h
+core.h
+/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/core.h
+
+/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/core.h
+
