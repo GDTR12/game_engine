@@ -1,1 +1,1 @@
-/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libhazel.so -o libhazel.so CMakeFiles/hazel.dir/src/hazel/application.cpp.o 
+/usr/bin/g++ -fPIC -g  -shared -Wl,-soname,libhazel.so -o libhazel.so CMakeFiles/hazel.dir/src/hazel/application.cpp.o CMakeFiles/hazel.dir/src/hazel/log.cpp.o 

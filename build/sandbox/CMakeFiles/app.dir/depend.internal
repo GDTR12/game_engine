@@ -6,4 +6,5 @@ sandbox/CMakeFiles/app.dir/src/application.cpp.o
  ../hazel/src/hazel/application.h
  ../hazel/src/hazel/core.h
  ../hazel/src/hazel/entry_point.h
+ ../hazel/src/hazel/log.h
  /home/gdtr/AI/CPP/game_engine/sandbox/src/application.cpp

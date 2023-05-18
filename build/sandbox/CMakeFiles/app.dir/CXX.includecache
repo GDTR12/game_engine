@@ -7,20 +7,34 @@
 #IncludeRegexTransform: 
 
 ../hazel/src/hazel.h
+stdio.h
+-
 hazel/application.h
 ../hazel/src/hazel/application.h
+hazel/log.h
+../hazel/src/hazel/log.h
 hazel/entry_point.h
 ../hazel/src/hazel/entry_point.h
 
 ../hazel/src/hazel/application.h
-core.h
-../hazel/src/hazel/core.h
+hazel/core.h
+../hazel/src/hazel/hazel/core.h
 
 ../hazel/src/hazel/core.h
 
 ../hazel/src/hazel/entry_point.h
-application.h
-../hazel/src/hazel/application.h
+hazel/log.h
+../hazel/src/hazel/hazel/log.h
+hazel/application.h
+../hazel/src/hazel/hazel/application.h
+
+../hazel/src/hazel/log.h
+hazel/core.h
+../hazel/src/hazel/hazel/core.h
+spdlog/spdlog.h
+../hazel/src/hazel/spdlog/spdlog.h
+memory
+-
 
 /home/gdtr/AI/CPP/game_engine/sandbox/src/application.cpp
 hazel.h

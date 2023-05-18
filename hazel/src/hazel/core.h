@@ -8,8 +8,9 @@
     #endif
 
 #else 
-    #if defined(__linux__) && defined(MYLIB_DLL)
+    #if defined(__linux__)// && defined(MYLIB_DLL)
         #define HAZEL_API
     #endif
 #endif
 
+#define BIT(x) (1<<x)

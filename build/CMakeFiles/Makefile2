@@ -113,12 +113,12 @@ sandbox/clean: sandbox/CMakeFiles/app.dir/clean
 hazel/CMakeFiles/hazel.dir/all:
 	$(MAKE) -f hazel/CMakeFiles/hazel.dir/build.make hazel/CMakeFiles/hazel.dir/depend
 	$(MAKE) -f hazel/CMakeFiles/hazel.dir/build.make hazel/CMakeFiles/hazel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/AI/CPP/game_engine/build/CMakeFiles --progress-num=3,4 "Built target hazel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/AI/CPP/game_engine/build/CMakeFiles --progress-num=3,4,5 "Built target hazel"
 .PHONY : hazel/CMakeFiles/hazel.dir/all
 
 # Build rule for subdir invocation for target.
 hazel/CMakeFiles/hazel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/CPP/game_engine/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/CPP/game_engine/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 hazel/CMakeFiles/hazel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/CPP/game_engine/build/CMakeFiles 0
 .PHONY : hazel/CMakeFiles/hazel.dir/rule
@@ -145,7 +145,7 @@ sandbox/CMakeFiles/app.dir/all: hazel/CMakeFiles/hazel.dir/all
 
 # Build rule for subdir invocation for target.
 sandbox/CMakeFiles/app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/CPP/game_engine/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/CPP/game_engine/build/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 sandbox/CMakeFiles/app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/CPP/game_engine/build/CMakeFiles 0
 .PHONY : sandbox/CMakeFiles/app.dir/rule

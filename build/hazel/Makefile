@@ -152,6 +152,33 @@ src/hazel/application.cpp.s:
 	cd /home/gdtr/AI/CPP/game_engine/build && $(MAKE) -f hazel/CMakeFiles/hazel.dir/build.make hazel/CMakeFiles/hazel.dir/src/hazel/application.cpp.s
 .PHONY : src/hazel/application.cpp.s
 
+src/hazel/log.o: src/hazel/log.cpp.o
+
+.PHONY : src/hazel/log.o
+
+# target to build an object file
+src/hazel/log.cpp.o:
+	cd /home/gdtr/AI/CPP/game_engine/build && $(MAKE) -f hazel/CMakeFiles/hazel.dir/build.make hazel/CMakeFiles/hazel.dir/src/hazel/log.cpp.o
+.PHONY : src/hazel/log.cpp.o
+
+src/hazel/log.i: src/hazel/log.cpp.i
+
+.PHONY : src/hazel/log.i
+
+# target to preprocess a source file
+src/hazel/log.cpp.i:
+	cd /home/gdtr/AI/CPP/game_engine/build && $(MAKE) -f hazel/CMakeFiles/hazel.dir/build.make hazel/CMakeFiles/hazel.dir/src/hazel/log.cpp.i
+.PHONY : src/hazel/log.cpp.i
+
+src/hazel/log.s: src/hazel/log.cpp.s
+
+.PHONY : src/hazel/log.s
+
+# target to generate assembly for a file
+src/hazel/log.cpp.s:
+	cd /home/gdtr/AI/CPP/game_engine/build && $(MAKE) -f hazel/CMakeFiles/hazel.dir/build.make hazel/CMakeFiles/hazel.dir/src/hazel/log.cpp.s
+.PHONY : src/hazel/log.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -164,6 +191,9 @@ help:
 	@echo "... src/hazel/application.o"
 	@echo "... src/hazel/application.i"
 	@echo "... src/hazel/application.s"
+	@echo "... src/hazel/log.o"
+	@echo "... src/hazel/log.i"
+	@echo "... src/hazel/log.s"
 .PHONY : help
 
 

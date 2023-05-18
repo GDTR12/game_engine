@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = -DMYLIB_DLL
 
-CXX_INCLUDES = -I/home/gdtr/AI/CPP/game_engine/sandbox/./src -I/home/gdtr/AI/CPP/game_engine/hazel/./src -I/home/gdtr/AI/CPP/game_engine/hazel/. 
+CXX_INCLUDES = -I/home/gdtr/AI/CPP/game_engine/sandbox/./src -I/home/gdtr/AI/CPP/game_engine/sandbox/../hazel/vendor/spdlog/include -I/home/gdtr/AI/CPP/game_engine/hazel/./src 
 

@@ -6,4 +6,4 @@ target_compile_features(app PRIVATE cxx_std_17)
 
 target_link_libraries(app PUBLIC hazel)
 
-target_include_directories(app PUBLIC ./src)
+target_include_directories(app PUBLIC ./src ../hazel/vendor/spdlog/include)

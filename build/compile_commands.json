@@ -1,12 +1,17 @@
 [
 {
   "directory": "/home/gdtr/AI/CPP/game_engine/build/hazel",
-  "command": "/usr/bin/g++  -DMYLIB_DLL -Dhazel_EXPORTS -I/home/gdtr/AI/CPP/game_engine/hazel/./src -I/home/gdtr/AI/CPP/game_engine/hazel/.  -g -fPIC   -lm -std=gnu++17 -o CMakeFiles/hazel.dir/src/hazel/application.cpp.o -c /home/gdtr/AI/CPP/game_engine/hazel/src/hazel/application.cpp",
+  "command": "/usr/bin/g++  -DMYLIB_DLL -Dhazel_EXPORTS -I/home/gdtr/AI/CPP/game_engine/hazel/./src  -g -fPIC   -lm -std=gnu++17 -o CMakeFiles/hazel.dir/src/hazel/application.cpp.o -c /home/gdtr/AI/CPP/game_engine/hazel/src/hazel/application.cpp",
   "file": "/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/application.cpp"
 },
 {
+  "directory": "/home/gdtr/AI/CPP/game_engine/build/hazel",
+  "command": "/usr/bin/g++  -DMYLIB_DLL -Dhazel_EXPORTS -I/home/gdtr/AI/CPP/game_engine/hazel/./src  -g -fPIC   -lm -std=gnu++17 -o CMakeFiles/hazel.dir/src/hazel/log.cpp.o -c /home/gdtr/AI/CPP/game_engine/hazel/src/hazel/log.cpp",
+  "file": "/home/gdtr/AI/CPP/game_engine/hazel/src/hazel/log.cpp"
+},
+{
   "directory": "/home/gdtr/AI/CPP/game_engine/build/sandbox",
-  "command": "/usr/bin/g++  -DMYLIB_DLL -I/home/gdtr/AI/CPP/game_engine/sandbox/./src -I/home/gdtr/AI/CPP/game_engine/hazel/./src -I/home/gdtr/AI/CPP/game_engine/hazel/.  -g   -std=gnu++17 -o CMakeFiles/app.dir/src/application.cpp.o -c /home/gdtr/AI/CPP/game_engine/sandbox/src/application.cpp",
+  "command": "/usr/bin/g++  -DMYLIB_DLL -I/home/gdtr/AI/CPP/game_engine/sandbox/./src -I/home/gdtr/AI/CPP/game_engine/sandbox/../hazel/vendor/spdlog/include -I/home/gdtr/AI/CPP/game_engine/hazel/./src  -g   -std=gnu++17 -o CMakeFiles/app.dir/src/application.cpp.o -c /home/gdtr/AI/CPP/game_engine/sandbox/src/application.cpp",
   "file": "/home/gdtr/AI/CPP/game_engine/sandbox/src/application.cpp"
 }
 ]

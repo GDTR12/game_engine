@@ -1,4 +1,4 @@
-#include "application.h"
+#include "hazel/application.h"
 #include <stdio.h>
 namespace Hazel{
 
@@ -12,7 +12,6 @@ Application::~Application()
 
 void Application::run()
 {
-    printf("Beginning to run!\r\n");
     for(;;)
     {
         

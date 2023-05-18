@@ -6,5 +6,5 @@ CXX_FLAGS = -g -fPIC   -lm -std=gnu++17
 
 CXX_DEFINES = -DMYLIB_DLL -Dhazel_EXPORTS
 
-CXX_INCLUDES = -I/home/gdtr/AI/CPP/game_engine/hazel/./src -I/home/gdtr/AI/CPP/game_engine/hazel/. 
+CXX_INCLUDES = -I/home/gdtr/AI/CPP/game_engine/hazel/./src 
 
